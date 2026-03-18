@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="body.css">
+    <link rel="stylesheet" href="card.css">
+    <link rel="stylesheet" href="button.css">
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="header.css">
+    <title>CityShop - Login</title>
+</head>
+<body>
+      <header class="main-header">
+        <div class="logo">
+            <h1>CityShop</h1>
+        </div>
+        <nav>
+            <a href="./../projekte.html">Zurück zu meinen Projekten</a>
+        </nav>
+    </header>
+
+<main>
+    <div class="card">
+        <h2>Login</h2> 
+        <h4>Zum testen
+            <h6>Email: test@mail.de</h6> 
+            <h6>Passwort: test</h6>
+            <h6>Oder registrieren</h6>
+
+        </h4>
+        <form action="login.php" method="post">
+            <label for="email">E-Mail Adresse</label>
+            <input type="email" id="email" name="email" placeholder="ihre@mail.de" required>
+
+            <label for="passwort">Passwort</label>
+            <input type="password" id="passwort" name="passwort" placeholder="••••••••" required> 
+
+            <button type="submit" class="btn-primary">Einloggen</button> <br>
+        </form>
+        
+        <p style="text-align: center; margin-top: 15px; font-size: 0.85rem;">
+            Noch kein Konto? <a href="registrieren.html">Hier registrieren</a> 
+        </p>
+    </div>
+</main>
+
+</body>
+</html>
